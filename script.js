@@ -29,6 +29,8 @@ const loopGame = setInterval(() => {
     mario.style.width = "75px";
     mario.style.marginLeft = "45px";
 
+    alert("Game Over");
+
     clearInterval(loopGame);
 
     }
